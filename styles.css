@@ -37,7 +37,6 @@ a:hover {
 }
 
 .main-content {
-    /* margin-top: 100px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -46,7 +45,7 @@ a:hover {
 }
 
 .search-bar {
-    width: 450px;
+    width: 500px;
     border-radius: 1.5em;
     border: solid #e0e0e0 1px;
     margin: 25px;
@@ -130,7 +129,7 @@ footer {
     box-sizing: border-box;
     position: relative;
     display: block;
-    transform: scale(var(--ggs,1));
+    transform: scale(0.8);
     width: 16px;
     height: 16px;
     border: 2px solid;
@@ -193,6 +192,5 @@ footer {
     12px 12px 0,
     6px 0 0,
     12px 0 0,
-    0 12px 0
-    ;
+    0 12px 0;
    } 
